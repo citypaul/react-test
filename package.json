@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "babel src -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,7 +18,11 @@
   },
   "homepage": "https://github.com/citypaul/react-test#readme",
   "dependencies": {
+    "babel-plugin-transform-react-jsx": "^6.8.0",
     "react": "^15.3.2",
     "react-dom": "^15.3.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.14.0"
   }
 }
